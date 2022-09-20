@@ -1,0 +1,37 @@
+.footer{
+  padding: 70px 0 70px;
+  .col-md-6{
+    .brand{
+      .brand-text{
+        width: 75%;
+        color: #000;
+        margin-top: 25px;
+        font-family: 'Combo', cursive;
+      }
+    }
+  }
+  .col-md-6{
+    display: flex;
+    justify-content: space-between;
+    .products{
+      margin: 0 40px;
+      padding: 0;
+      .theme{
+        padding-bottom: 5px;
+        font-family: 'Combo', cursive;
+        font-weight: 700;
+      }
+      li{
+        list-style: none;
+        font-size: 15px;
+        margin: 15px 0;
+        font-family: 'Combo', cursive;
+        a{
+          text-decoration: none;
+          color: #000;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

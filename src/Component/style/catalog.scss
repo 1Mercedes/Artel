@@ -1,0 +1,42 @@
+.trending{
+  padding: 50px 0 50px;
+  .pagetitle{
+    text-align: center;
+  }
+  .trandingCards{
+    .row{
+      .col-md-3{
+        .card{
+          cursor: pointer;
+          .card-header{
+            text-align: center;
+            overflow: hidden;
+            border-bottom: none;
+            border-radius: 10px;
+            img{
+              width: 100%;
+              transition: 0.5s ease;
+
+              &:hover{
+                transform: scale(1.2);
+              }
+            }
+          }
+          .card-body{
+            padding: 10px;
+            .infoTitle{
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              .price{
+                color: green;
+                font-weight: 700;
+                font-family: 'Combo', cursive;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

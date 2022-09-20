@@ -1,0 +1,20 @@
+[
+  {
+  "img": "/pl1.jpg",
+    "name": "Циклонный пылесос Artel VCC 0220",
+    "price": "$299"
+},
+  {
+    "img": "/pl2.png",
+    "name": "Циклонный пылесос Artel VCC 3507",
+    "price": "$399"
+  },{
+  "img": "/pl3.jpg",
+  "name": "Контейнерный пылесос Artel VCC 0120",
+  "price": "$350"
+},{
+  "img": "/pl4.png",
+  "name": "Пылесос ART-VCC 4516 W",
+  "price": "$499"
+}
+]

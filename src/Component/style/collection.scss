@@ -1,0 +1,70 @@
+.pagetitle{
+  padding: 50px 0 20px;
+}
+.card{
+  background: #F5F5F5;
+  margin: 5px;
+  .card-body{
+    padding: 0;
+    img{
+      width: 100%;
+    }
+  }
+  .card-footer{
+    background: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    p{
+      font-weight: 600;
+      font-family: 'Combo', cursive;
+      font-size: 18px;
+    }
+    span{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      background: #007400;
+      //padding: 5px 10px;
+      width: 80px;
+      height: 30px;
+      border-radius: 20px;
+    }
+  }
+}
+
+
+.cardcol{
+  .productsPrice{
+    display: flex;
+    justify-content: space-between;
+    span{
+      background: #000;
+      padding: 5px 15px;
+      color: white;
+      font-weight: 600;
+      font-family: 'Combo', cursive;
+      &:nth-last-child(2){
+        background: #000;
+        //padding: 5px 10px;
+        color: white;
+        font-weight: 700;
+      }
+    }
+  }
+}
+.buttonArea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 50px;
+  .exploreBtn{
+    border: 1px solid #007400;
+    padding: 20px 30px;
+    color: #007400;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Combo", cursive;
+  }
+}
